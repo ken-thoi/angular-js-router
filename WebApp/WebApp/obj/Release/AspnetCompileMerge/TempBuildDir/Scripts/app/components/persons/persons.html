@@ -1,0 +1,11 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <h4>Some persons list</h4>
+        <ul>
+            <li ng-repeat="person in persons">
+                <!--<a ui-sref="person({ personId: person.Id })">{{person.Name}}</a>-->
+                <a href="#!/person/?personId={{person.Id}}">{{person.Name}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
