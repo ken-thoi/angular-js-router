@@ -3,3 +3,5 @@
 ################################################################################
 
 /WebApp/.vs/WebApp/v15/Server/sqlite3
+/WebApp/WebApp/bin/roslyn
+/WebApp/WebApp/obj/Debug/WebApp.csproj.FileListAbsolute.txt

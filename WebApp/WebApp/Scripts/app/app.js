@@ -48,6 +48,12 @@
                     //        return PersonService.getPerson($transition$.params().personId);
                     //    }
                     //}
+                },
+
+                {
+                    name: 'not-found',
+                    url: '/not-found',
+                    component: 'not-found'
                 }
             ];
 
@@ -58,6 +64,7 @@
 
             // 
             $urlServiceProvider.rules.otherwise({ state: 'home' });
+            //$urlServiceProvider.rules.otherwise({ state: 'not-found' });
 
         }]);
 

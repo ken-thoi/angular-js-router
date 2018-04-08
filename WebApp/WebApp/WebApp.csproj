@@ -198,6 +198,8 @@
     <Content Include="Scripts\app\components\about\about.html" />
     <Content Include="Scripts\app\components\home\home.component.js" />
     <Content Include="Scripts\app\components\home\home.html" />
+    <Content Include="Scripts\app\components\not-found\not-found.component.js" />
+    <Content Include="Scripts\app\components\not-found\not-found.html" />
     <Content Include="Scripts\app\components\person-details\person-details.component.js" />
     <Content Include="Scripts\app\components\person-details\person-details.html" />
     <Content Include="Scripts\app\components\persons\persons.component.js" />
