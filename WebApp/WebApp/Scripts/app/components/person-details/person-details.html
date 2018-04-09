@@ -6,9 +6,15 @@
         <p>Email: {{person.Email}}</p>
         <p><button class="btn btn-sm btn-info" ui-sref="persons">Back to persons list</button></p>
         <hr />
-        <p>location: {{location.search()}}</p>
-        <p>absUrl: {{absUrl}}</p>
-        <p>url: {{url}}</p>
-        <p>host: {{host}}</p>
+
+        <pre>$location.absUrl() = {{absUrl}}</pre>
+        <pre>$location.host() = {{host}}</pre>
+        <pre>$location.url() = {{url}}</pre>
+        <pre>$location.path() = {{path}}</pre>
+        <pre>$location.search() = {{search}}</pre>
+
+        <pre>$route.current.templateUrl = {{templateUrl}}</pre>
+        <pre>$route.current.params = {{params}}</pre>
+        <pre>$route.current.scope.name = {{scopeName}}</pre>
     </div>
 </div>

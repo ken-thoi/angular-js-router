@@ -7,6 +7,7 @@ namespace WebApp.Controllers
     public class DefaultController : Controller
     {
         // GET: Default
+        [HttpGet]
         public ActionResult Index()
         {
             return View();
@@ -17,6 +18,7 @@ namespace WebApp.Controllers
                                                          new Person { Id = 3, Name = "Kun", Email = "kun@gmail.com" },
                                                          new Person { Id = 4, Name = "Xuan Do Thanh", Email = "xuan@gmail.com" } };
 
+        [HttpGet]
         public JsonResult GetAllPersons()
         {
             return Json(new { persons }, JsonRequestBehavior.AllowGet);
